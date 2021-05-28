@@ -2,6 +2,7 @@
 import { useSelector } from "react-redux";
 
 //Import useState to store User Interface logic
+//OBS: Your components should be as simple as possible, only storing logic that concerns the component itself
 import { useState } from "react";
 
 //Import selector from selectors store
