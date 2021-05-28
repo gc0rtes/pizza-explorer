@@ -7,7 +7,7 @@ const initialState = {
 export default function reducer(state = initialState, action) {
   switch (action.type) {
     case "user/toggleFavorite": {
-      console.log("toggleFavorite", action);
+      console.log("toggleFavorite", action.payload);
       const id = action.payload;
 
       const favorites = state.favorites.includes(id) // check if we already have it
